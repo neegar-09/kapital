@@ -1,0 +1,1182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+
+}
+#nav1{
+	width: 100%;
+	margin-bottom: 20px;	
+}
+.ortalama{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.nav_sekil , .navbar{
+	margin-top: 30px;
+}
+.navbar{
+	width: 42%;
+}
+.navbar ul li a{
+	float: left;
+	margin-left: 10px;
+	color: black;
+	font-size: 15px;
+}
+.navbar ul li i{
+	border: 1px solid red;
+	border-radius: 5px;
+
+}
+
+.fa-magnifying-glass{
+	padding: 8px;
+	color: red;
+	background-color: white;
+}
+.fiziki{
+	font-weight: 600;
+}
+.media_icon{
+	width: 10%;
+   display: flex;
+   justify-content: space-between;
+   display: none;
+}
+header{
+	width: 100%;
+	background-color: #e8ecf1;
+	height: 72px;
+	border-bottom: 10px;
+
+}
+.header{
+	width: 71%;
+}
+.ortalama_header{
+	padding: 27px 10px;
+}
+.header ul{
+	display: flex;
+	justify-content:space-around ;
+}
+.header ul li a{
+	color: black;
+}
+.header_birbank a{
+	background-color: #f45369;
+	color: white;
+	border-radius: 5px;
+	font-size: 17px;
+    padding: 8px 10px;
+}
+#sec1{
+	width: 100%;
+	background-color: #e8ecf1;
+	margin-bottom: 20px;
+}
+.sol , .sag{
+	width: 45%;
+}
+.sol{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+} 
+.sag{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.isareler{
+	width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.isareler i{
+	border: 0;
+	border-radius: 50px;
+	color: #bdc3c7;
+	font-weight: 600;
+	background-color: white;
+	padding: 6px 10px;
+}
+.yazi{
+	width: 98%;
+
+}
+.yazi span{
+	font-size: 33px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.yazi p{
+	 font-size: 33px;
+	 font-family: 'Noto Sans', sans-serif;
+	 font-weight: 600;
+}
+.title{
+	width: 103%;
+	margin-bottom: 30px;
+}
+.onlayn h1{
+	font-size: 34px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 500;
+}
+.nagd{
+	width: 100%;
+	margin-top: 20px;
+}
+.nagd a{
+	color: white;
+	background-color: #f45369;
+	font-size: 21px;
+	border-radius: 5px;
+	border: 0;
+	padding: 13px 37px;
+}
+.sekil_13{
+	width: 70%;
+}
+.sekil_13 img{
+	width: 400px;
+}
+.ortalama_sec1{
+	padding: 25px;
+}
+#sec2{
+	width: 100%;
+	margin-bottom: 60px;
+	
+}
+.ortalama_flex{
+	display: flex;
+	flex-direction: column;
+}
+.title p  {
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.title span{
+	font-weight: 600;
+}
+.qutular{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+}
+.qutu{
+	width: 138px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 10px;
+	background-color: #ffffff;
+	padding: 25px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) , 0 8px 16px rgba(0, 0, 0, 0.1);
+	height: 119px;
+}
+
+.qutu img{
+	width: 40px;
+}
+.qutular a{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
+.qutular i{
+	color: #f45369;
+	font-size: 35px;
+}
+.span_qutu span{
+	font-weight: 300;
+	color: red;
+
+}
+
+#sec3{
+	width: 100%;
+	padding: 65px 0;
+
+}
+.sec3_ortalama{
+	display: flex;
+	flex-direction: column;
+}
+.sec3_sekil{
+	width: 30%;
+	position: relative;
+	height: 180px;
+
+}
+.sec3_sekil img{
+	width: 321px;
+	position: absolute;
+	top: -154px;
+}
+.div2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #e9ecf0;
+}
+.sec3_sol , .sec3_sag{
+	width: 45%;
+}
+.sec3_sol{
+	display: flex;
+	flex-direction: column;
+	width: 84%;
+	justify-content: space-evenly;
+}
+.yuxari{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.kartla{
+	width: 54%;
+}
+.kartla p{
+	font-size: 18px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.yuxari h1{
+	font-family: 'Noto Sans', sans-serif;
+	color: #f45369;
+}
+.yuxari p{
+	font-size: 15px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.sifaris a{
+	border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: #f45369;
+    border: 0;
+    padding: 14px 104px;
+}
+.sec3_sag{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.sec3_isare{
+	color: #bdc3c7;
+}
+.sec3{
+	    display: flex;
+    flex-direction: column;
+}
+.sec3_asagi{
+	background: #e9ecf0;
+	padding: 15px;
+}
+.sec3_yuxari{
+	padding: 10px;
+}
+#sec4{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 460px;
+	justify-content: space-between;
+}
+.sec4_yuxari{
+	width: 100%;	
+}
+.yuxari_sec4{
+	padding-bottom: 50px;
+}
+.sec4_yuxari_sol{
+	width: 40%;
+}
+.sec4_yuxari_sag{
+	width: 68%;
+}
+.sec4_yazi{
+	width: 100%;
+}
+.Azn p{
+	font-size: 15px;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+.sec4_asagi_sol{
+	width: 30%;
+}
+.sec4_asagi{
+	width: 100%;
+	background-color: #e9ecf0;
+}
+.sec4_sekil{
+	width: 100%;
+	position: relative;
+	height: 100px;
+}
+.sec4_sekil img{
+	position: absolute;
+	top: -219px;
+	left: -86px;
+}
+.sec4_asagi_sag{
+	width: 65%;
+
+}
+.sec4_asagi_sol{
+	padding: 102px 59px;
+}
+.sifaris_sec4{
+	text-align-last: end;
+}
+
+.melumat{
+	width: 49%;
+	display: flex;
+    align-items: flex-start;
+}
+.melumat p{
+	font-size: 12px;
+	width: 100%;
+}
+.sifaris_et{
+	width: 50%;
+}
+.sifaris_et a{
+	color: white;
+	background-color: #f45369;
+	border: 0;
+	border-radius: 20px;
+	font-size: 24px;
+	padding: 10px 125px;
+}
+.sec4_input{
+	position: relative;
+	width:50%;
+}
+
+.sec4_input i{
+	position: absolute;
+	right: 22px;
+    top: 12px;
+}
+#sec5{
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 200px 0;
+}
+.sec5_ortalama{
+	width: 100%;
+	display: flex;
+	flex-direction: column !important;
+	width: 90%;
+	margin: 0 auto;
+}
+.sec5_yuxari{
+	padding: 20px 0;
+}
+.sec5_ul ul{
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+}
+.sec5_ul a{
+	font-size: 16px;
+	border-radius: 20px;
+	border: 0;
+	color: black;
+	background-color: #e8ecf1;
+	padding: 10px 23px;
+}
+.sec5_asagi_sol{
+	width: 60%;
+}
+.sol_div{
+	width: 100%;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.gundelik p{
+	font-size: 21px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.siz{
+	font-size: 17px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.sec5_input1{
+	width: 100%;
+	position: relative;
+}
+.input1 input {
+	width: 100%;
+	padding: 15px 20px;
+	border-radius: 10px;
+	border: 1px solid #eaeaea;
+}
+.reqem1{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.range1{
+	width: 96%;
+	position: absolute;
+    bottom: 34px;
+}
+.range1 input{
+	background-color: #eaeaea;
+	-webkit-appearance: none;
+    width: 98%;
+    height: 1px;
+}
+input[type="range"]::-webkit-slider-thumb {
+   appearance: none;
+   background-color: #ff0000;
+   height: 10px;
+   width: 10px;  
+   border-radius: 50%; 
+   box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  border: 6px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.sec5_asagi_sag {
+	width: 35%;
+}
+.sag_div{
+	width: 100%;
+	height:300px ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid #eaeaea;
+	border-radius: 10px;
+}
+.sag_nagd{
+	width: 100%;
+	text-align: center;
+}
+.sag_nagd p{
+	font-size: 23px;
+	font-family: 'Noto Sans', sans-serif;
+	
+}
+.manat{
+	width: 100%;
+	text-align: center;
+}
+.manat p{
+	font-size: 57px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #f45369;
+	font-weight: 700;
+
+
+}
+.sifarish{
+	width: 100%;
+	text-align: center;
+}
+.sifarish a{
+	font-size: 30px;
+	color: white;
+	background-color: #f45369;
+	border: 0;
+	border-radius: 20px;
+	padding: 10px 120px;
+	text-align: center;
+}
+#sec6{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.sec6_sol{
+	width: 47%;
+	background-color: #e8ecf1;
+	padding: 16px;
+	border-radius: 10px;
+}
+.orta_sol1{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.online {
+	width: 100%;
+}
+.online p{
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+}
+.bank{
+	width: 80%;
+}
+.bank p{
+	font-size: 15px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.odenis a , .odenis i{
+	color: #f4537f;
+}
+.sec6_sag{
+	width: 47%;
+	padding: 16px;
+	border-radius: 10px;
+	background-color: #ef3e42;
+}
+
+.orta_sol2{
+	width: 73%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.insan{
+	width: 100%;
+}
+.insan p{
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	color: white;
+}
+.kapital{
+	width: 100%;
+}
+.kapital p{
+	font-size: 12px;
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
+}
+.daha a , .daha i {
+	color: white;
+}
+.orta_sag2{
+	width: 100%;
+	position: relative;
+    height: 279px;
+}
+.orta_sag2 img{
+	width: 237px;
+	position: absolute;
+    bottom: -16px;
+}
+.orta_sag1{
+	position: relative;
+    width: 38%;
+    height: 278px;
+}
+.orta_sag1 img{
+	bottom: -15px;
+    position: absolute;
+}
+#sec7{
+	width: 100%;
+	padding:40px 0;
+	background-color: #e8ecf1;
+	margin-top: 40px;
+}
+.sec7_yuxari{
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 3px solid white;
+}
+.xeber{
+	width: 100%;
+}
+.xeber p{
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+}
+.butun{
+	width: 15%;
+}
+.butun a , .butun i{
+	font-size: 15px;
+	color: #f45369;
+}
+.sec7_asagi{
+	width: 100%;
+	padding: 32px 0;
+}
+.part1{
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sentyabr{
+	width: 30%;
+}
+.qirmizi{
+	width: 68%;
+}
+.qirmizi a{
+	font-size: 16px;
+	color: black;
+}
+.reqem{
+	width: 50px;
+	margin-bottom: 5px;
+}
+.reqem p{
+	border: 1px solid #f45369;
+	border-radius: 45px;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 22px;
+}
+.part2 i{
+	color: grey;
+	font-weight: 900;
+	font-size: 28px;
+}
+#sec8{
+	width: 100%;
+	padding: 53px 0;
+}
+.sec8_sol , .sec8_sag{
+	width: 50%;
+}
+.soldiv{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.valyuta , .cedvel , .etrafli{
+	width: 100%;
+}
+.valyuta{
+	padding-bottom: 38px;
+}
+#val{
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+}
+#bezi{
+	font-size: 15px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.cem2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 32px;
+}
+.cedvel{
+	display: flex;
+	flex-direction: column;
+/*	justify-content: space-between;*/
+	padding-bottom: 40px;
+}
+.hisse{
+	padding-bottom: 10px;
+}
+.hisse1 , .hisse2 , .hisse3{
+	width: 34%;
+}
+.PART1 , .PART2 , .PART3{
+	width: 45%;
+}
+
+.alis{
+	width: 100%; 
+	display: flex;
+	border-bottom: 1px solid #e8ecf1;
+   padding: 15px 0;
+
+}
+ .usd1 , .usd2{
+	width: 100%; 
+	display: flex;
+    padding: 15px 0;
+}
+ .usd1{
+ 	border-bottom: 1px solid #e8ecf1;
+ }
+.alis p{
+	font-size: 18px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #2e3131;
+}
+.usd1 p , .usd2 p{
+	font-size: 25px;
+	color: #2e3131;
+	font-weight: 300;
+	font-family: 'Noto Sans', sans-serif;
+}
+#qalin{
+	font-weight: 500;
+	margin-left: 25px;
+}
+.etrafli a{
+	color: #f45369;
+	font-size: 15px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.etrafli i{
+	margin-left: 10px;
+	color: #f45369;
+}
+.sagdiv{
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e8ecf1;
+  	border-radius: 5px;
+  	padding-top: 20px;
+}
+.hisse{
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2px;
+}
+.men{
+	width: 50%;
+	display: flex;
+	background-color: white;
+	padding: 7px;
+	padding-bottom: 8px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.satmaq{
+	width: 49%;
+}
+.satmaq button{
+	font-size: 15px;
+	padding: 10px 32px;
+    border-radius: 5px;
+    border: 0;
+}
+#sat{
+	background-color:#f45369 ;
+	color: white;
+	width: 100%;
+}
+.sec8_input{
+	width: 90%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.sec8_input input{
+	width: 100%;
+	padding: 17px 0;
+    border-radius: 13px;
+    border: 0;
+}
+.sec8_input select{
+	width: 12%;
+	position: absolute;
+    bottom: 10px;
+    right: 13px;
+    color: red;
+    padding: 4px 6px;
+}
+.cedvel2{
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.USD , .USD_{
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+}
+.USD_{
+
+    padding: 18px;
+}
+.USD , .mebleg .USD_{
+	border-bottom: 1px solid #ffffff;
+	padding: 15px 0;
+	width: 100%;
+}
+.USD p , .USD_ p{
+	font-size: 25px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 300;
+	color: #2e3131;
+	margin-right: 20px;
+}
+.mebleg{
+	    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    padding: 15px 1px;
+}
+.mebleg p{
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #2e3131;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-between;
+    padding: 40px 0;
+    background-color: #2e3131 ;
+}
+.foot_yuxari  {
+	width: 100%;
+}
+.Kapital_Bank ul {
+	height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Kapital_Bank a , .Məhsullar a , .Çevik_keçidlər a , .Digər a{
+	color: white;
+}
+.Məhsullar ul{
+   height: 205px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.Çevik_keçidlər ul , .Digər ul{
+	height: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/*.tetbiq{
+	margin-top: 24px;
+}*/
+.tetbiq b{
+	color: white;
+}
+.tetbiq ul{
+	height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#ul{
+	display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+#ul i{
+	font-size: 25px;
+}
+#tel a{
+	padding-bottom: 4px;
+	padding: 12px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.ortalama b{
+	color: white;
+}
+.foot_orta{
+	border-bottom: 1px solid grey;
+    height: 55px;
+}
+.foot_orta a{
+	color: white;
+}
+.sekil_foot{
+	width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.huquq p{
+	color: white;
+}
+@media (min-width : 500px) and (max-width : 768px){
+	.media_icon{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 30px;
+		width: 30%;
+	}
+	.navbar{
+		display: none;
+	}
+	header{
+		display: none;
+	}
+	#sec1{
+		background-color: white;
+	}
+	.sol{
+		background-color:white ;
+	}
+	.sol_cem{
+		padding: 35px 16px;
+    background-color: #e8ecf1;
+	}
+	.ortalama_sec1{
+		display: flex;
+		flex-direction: column-reverse ;
+		align-items: center;
+	}
+	.isareler{
+		transform: translateY(83px);
+	}
+	.sekil_13 img{
+		width: 261px;
+		
+	}
+	.sekil_13{
+		/*text-align: center;*/
+		transform: translateX(82px);
+	}
+	.sol{
+		width: 100%;
+	}
+	.yazi{
+		width: 100%;
+		text-align: center;
+	}
+	.nagd{
+		width: 100%;
+		text-align: center;
+	}
+	.sag{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.isareler{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.yazi p{
+		font-size: 27px;
+	}
+	.qutular{
+		display: flex;
+		flex-direction: column;
+	}
+	.qutu{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		width: 90%;
+		height: 20px;
+		margin-bottom: 20px;
+	}
+	.qutu:hover{
+		transform: scale(1.070);
+		transition: 0.5s;
+	}
+	.qutu a{
+		margin-left:20px;
+	}
+	#sec3{
+		display: flex;
+		flex-direction: column;
+	}
+	.sec3_yuxari{
+		width: 100%;
+		padding-bottom: 219px
+	}
+	.sec3_sag{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.sec3_sekil{
+
+	    transform: translateX(55px);
+	}
+	.kartla{
+		width: 100%;
+	}
+	.kartla p{
+		font-size: 15px;
+	}
+	.sec3_isare{
+		width: 90%;
+		transform: translateY(-115px);
+	}
+	.div2{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.yuxari{
+		display: flex;
+		flex-direction: column;
+	}
+	.sec3_sol{
+		width: 100%;
+	}
+	.kesbek , .pulsuz , .gunedek , .asagi{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.sifaris a{
+		padding: 11px 159px;
+	}
+	.sec4_yuxari_sag{
+		width: 100%;
+	}
+	.ortalama_sec4{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	.sec4_yuxari_sol{
+		    width: 6%;
+	}
+	.sec4_yuxari{
+		    padding-bottom: 200px;
+	}
+	.sec4_sekil img{
+	    top: -398px;	
+	}
+	.sec4_asagi_sol{
+		width: 100%;
+	}
+	.sec3_sol2{
+		transform: translateX(-80px) translateY(55px);
+		padding: 41px 0;
+	} 
+
+	#sec5{
+	   padding: 554px 0;	
+	       padding-bottom: 291px;
+	}
+	.sec5_ul ul{
+		width: 100%;
+	}
+	.ortalama_sec5{
+		display: flex;
+		flex-direction: column;
+	}
+	.sec5_asagi_sol {
+    width: 100%;
+   }
+   .input1 input{
+   	padding: 24px 5px;
+   }
+   .reqem1{
+   	width: 100%;
+   }
+   .sec5_asagi_sag {
+    width: 100%;
+   }
+   .sag_nagd {
+    width: 54%;
+    margin-left: 89px;
+   }
+   #sec6{
+   	display: flex;
+   	flex-direction: column;
+   }
+   .sec6_sol{
+   	width: 94%;
+   	margin-bottom: 30px;
+   }
+   .ortalama_sec6{
+   	width: 100%;
+   	display: flex;
+   	flex-direction: column;
+   }
+   .orta_sol1 {
+    width: 94%;
+   }
+   .bank {
+    width: 100%
+   }
+   .orta_sag1{
+   	width: 100%;
+   	height: 170px;
+   }
+   .orta_sag1 img{
+   	   bottom: -15px;
+        left: 224px;
+   }
+   .sec6_sag{
+   	width: 94%;
+   }
+   .odenis , .daha{
+   	transform: translateY(166px);
+   }
+   .orta_sol2{
+   	width: 100%;
+   }
+   .orta_sag2{
+   	height: 170px;
+
+   }
+   .orta_sag2 img{
+   	width: 189px;
+   	left: 217px;
+   }
+   .butun{
+   	width: 46%;
+   }
+   .not{
+   	display: none;
+   }
+   .part1{
+   	width: 100%;
+   }
+   .sec8_sol{
+   	display: none;
+   }
+   .ortalama_sec8{
+   	width: 99%;
+   }
+    .sec8_sag{
+    	width: 100%;
+    }
+    .ortalama_foot{
+    	display: flex;
+    	flex-wrap: wrap;
+    }
+    .Kapital_Bank , .Məhsullar , .Çevik_keçidlər , .Digər{
+    	width: 50%;
+    	margin-bottom: 30px;
+    }
+    .tetbiq b{
+    	display: none;
+    }
+
+}
